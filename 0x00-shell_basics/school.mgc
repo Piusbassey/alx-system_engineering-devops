@@ -1,2 +1,2 @@
 #!/bin/bash
-file -C -m <(echo '0 string SCHOOL School data file')
+echo -e "0 string SCHOOL School data file\n" | file -C -m- school
